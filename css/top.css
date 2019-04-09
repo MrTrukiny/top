@@ -1,5 +1,41 @@
 /* Estilos para la página "Top". */
 
-.perfil_photo {
-    border-radius: 50%;
+html {
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    */
+    background-size: 100% 100%;
+  }
+
+body {
+    font-family: 'Arizonia';
+    font-size: 22px;
 }
+
+  /* Estilos de imagen */
+
+.avatar {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 25px;
+}
+
+/* Estilos de Info */
+
+ .info p {
+    background-color: rgba(240, 248, 255, 0.466);
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+    color: hsla(187, 21%, 8%, 0.801);
+ }
+
+
